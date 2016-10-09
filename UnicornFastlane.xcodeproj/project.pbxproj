@@ -123,6 +123,7 @@
 				TargetAttributes = {
 					B2D2C2B41DAAADF700E9ADB8 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2JRU28287L;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -336,12 +337,17 @@
 			baseConfigurationReference = CEA8856907897CB80277C680 /* Pods-UnicornFastlane.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 2JRU28287L;
 				INFOPLIST_FILE = UnicornFastlane/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.unicorn.UnicornFastlane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eae5914e-c2b4-4bf7-aa4d-f6bb4a3438c1";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development xxx.unicorn.UnicornFastlane";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -350,12 +356,18 @@
 			baseConfigurationReference = 6BCF6F87C1062353AC34025E /* Pods-UnicornFastlane.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 2JRU28287L;
 				INFOPLIST_FILE = UnicornFastlane/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.unicorn.UnicornFastlane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bcd6d04d-a81b-44f8-83f3-14435aceb97c";
+				PROVISIONING_PROFILE_SPECIFIER = "fastlane distribution";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
