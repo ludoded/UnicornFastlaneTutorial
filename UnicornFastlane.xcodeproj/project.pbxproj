@@ -337,7 +337,7 @@
 			baseConfigurationReference = CEA8856907897CB80277C680 /* Pods-UnicornFastlane.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 2JRU28287L;
 				INFOPLIST_FILE = UnicornFastlane/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -357,7 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 2JRU28287L;
 				INFOPLIST_FILE = UnicornFastlane/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
